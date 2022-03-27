@@ -5,8 +5,8 @@ sudo apt-get update -y
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt -y install nodejs
 
-sudo mkdir myapp
-sudo cd myapp
+sudo mkdir /home/ubuntu/myapp
+sudo cd /home/ubuntu/myapp
 npm install express --save
 sudo cp -r /home/ubuntu/jenkins/workspace/new-job/app.js /home/ubuntu/myapp/   #updaten the username
 
